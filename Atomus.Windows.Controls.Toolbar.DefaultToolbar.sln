@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{54A0CDB5-186F-43AD-8A62-405A348CDE9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{02445831-18F0-433F-BADF-673B8B4015DA}"
+	ProjectSection(SolutionItems) = preProject
+		src\View\DefaultToolbar.xaml = src\View\DefaultToolbar.xaml
+		src\View\DefaultToolbar.xaml.cs = src\View\DefaultToolbar.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{5BC2EAFF-1636-4EE7-9D30-2AE667A4C85C}"
+	ProjectSection(SolutionItems) = preProject
+		src\ViewModel\DefaultToolbarViewModel.cs = src\ViewModel\DefaultToolbarViewModel.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Windows.Controls.Toolbar.DefaultToolbar(dotNet)", "dotNet\Atomus.Windows.Controls.Toolbar.DefaultToolbar(dotNet).csproj", "{F7FA9AAC-C831-414A-9F9B-187D71F48C6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7FA9AAC-C831-414A-9F9B-187D71F48C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FA9AAC-C831-414A-9F9B-187D71F48C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FA9AAC-C831-414A-9F9B-187D71F48C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FA9AAC-C831-414A-9F9B-187D71F48C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02445831-18F0-433F-BADF-673B8B4015DA} = {54A0CDB5-186F-43AD-8A62-405A348CDE9A}
+		{5BC2EAFF-1636-4EE7-9D30-2AE667A4C85C} = {54A0CDB5-186F-43AD-8A62-405A348CDE9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F52814CF-EEA2-426A-A227-70808BA809E5}
+	EndGlobalSection
+EndGlobal
